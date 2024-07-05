@@ -46,8 +46,9 @@ To run the game locally, follow these steps:
 - **Objective**: Navigate through the level and achieve the highest score possible while avoiding obstacles and enemies.
 
 ## Screenshots
-![Screenshot 1](path/to/screenshot1.png)
-![Screenshot 2](path/to/screenshot2.png)
+![Screenshot 1](https://github.com/praveenpriyashan/2D-Bomb-game/blob/add-feacher/image/1.png)
+![Screenshot 2](https://github.com/praveenpriyashan/2D-Bomb-game/blob/add-feacher/image/2.png)
+![Screenshot 3](https://github.com/praveenpriyashan/2D-Bomb-game/blob/add-feacher/image/3.png)
 
 ## Technologies Used
 
