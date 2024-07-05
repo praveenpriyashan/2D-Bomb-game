@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+</head>
+<body>
+
+<div id="overlay">
+    <h1>Loading Game Assets</h1>
+    <div id="progress-bar">
+        <div id="bar"></div>
+    </div>
+</div>
+
+<div id="character"></div>
+
+<div id="platform">
+    <div id="tile1"></div>
+    <div id="tile2"></div>
+    <div id="tile3"></div>
+</div>
+
+<div id="start-screen">
+    <h2>Welcome to DEP-12 <br><span class="box animate__animated animate__infinite animate__wobble">2D</span> Game</h2>
+    <button id="btn-start" type="button" class="animate__animated animate__infinite animate__rubberBand">PLAY</button>
+    <button id="btn-easy" type="button" class="animate__animated animate__infinite animate__rubberBand">EASY</button>
+    <button id="btn-hard" type="button" class="animate__animated animate__infinite animate__rubberBand">HARD</button>
+    <div id="footer">Copyright &copy; 2024 DEP-12. All Rights Reserved.</div>
+</div>
+
+<div id="character2"></div>
+
+<div id="score-div-wrapper">
+    <div id="score-div">
+        <span id="score-span">Score is 0</span>
+    </div>
+</div>
+<div id="end-screen">
+    <button id="btn-finish" type="button" class="animate__animated animate__infinite animate__rubberBand">GAME OVER
+    </button>
+    <button id="btn-restart" type="button" class="animate__animated animate__infinite animate__rubberBand">RESTART
+    </button>
+</div>
+
+<script type="module" src="./main.js"></script>
+</body>
+</html>
+
