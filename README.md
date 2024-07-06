@@ -41,7 +41,7 @@ To run the game locally, follow these steps:
     ```
 
 ## How to Play
-- **Movement**: Use the arrow keys or WASD to move your character.
+- **Movement**: Use the arrow keys to move your character.
 - **Jump**: Press the spacebar to jump.
 - **Objective**: Navigate through the level and achieve the highest score possible while avoiding obstacles and enemies.
 
